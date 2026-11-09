@@ -1,0 +1,3 @@
+# Pustaka opsional untuk mempercantik tampilan terminal atau membantu belajar
+rich==13.7.1
+flake8==7.0.0
