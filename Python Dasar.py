@@ -19,33 +19,44 @@ if __name__ == "__main__":
 
 # Tipe Data Dasar #
 umur = 17
-print(type(umur))  # <class 'int'>
+print(type(umur))  
 
 tinggi = 170.5
-print(type(tinggi))  # <class 'float'>
+print(type(tinggi))  
 
 nama = "fadil"
-print(type(nama))  # <class 'str'>
+print(type(nama))  
 
 is_active = True
-print(type(is_active))  # <class 'bool'>
+print(type(is_active))
 
 buah = ["apel", "jeruk", "mangga"]
-print(type(buah))  # <class 'list'>
+print(type(buah))  
 
 warna = ("merah", "hijau", "biru")
-print(type(warna))  # <class 'tuple'>
+print(type(warna))  
 
 mahasiswa = {"nama": "Budi", "umur": 21, "jurusan": "Informatika"}
-print(type(mahasiswa))  # <class 'dict'>
+print(type(mahasiswa))  
 
 angka = {1, 2, 3, 3, 4}
-print(angka)  # {1, 2, 3, 4}
-print(type(angka))  # <class 'set'>
+print(angka)  
+print(type(angka))
 
-x = 10       # int
-y = float(x) # konversi ke float
-z = str(x)   # konversi ke string
+x = 10       
+y = float(x) 
+z = str(x)   
 
-print(y, type(y))  # 10.0 <class 'float'>
-print(z, type(z))  # "10" <class 'str'>
+print(y, type(y))  
+print(z, type(z)) 
+
+# Variable #
+nama = "Andi"
+umur = 25
+tinggi = 170.5
+is_active = True
+
+print(nama)      
+print(umur)      
+print(tinggi)    
+print(is_active) 
