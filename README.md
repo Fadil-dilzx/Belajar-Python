@@ -20,7 +20,7 @@ Sebelum menjalankan kode di repositori ini, pastikan kamu sudah menginstal:
 1. **Kloning repositori ini:**
    ```bash
    git clone https://github.com
-   cd nama-repo
+   cd Belajar-Python
    ```
 
 2. **(Opsional) Buat virtual environment:**
@@ -47,4 +47,4 @@ Sebelum menjalankan kode di repositori ini, pastikan kamu sudah menginstal:
 * **Kelas:** [XI RPL A]
 
 ---
-Dibuat dengan ❤️ oleh [Fadila]
+Dibuat dengan oleh [Fadila]
