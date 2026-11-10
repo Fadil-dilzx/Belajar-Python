@@ -60,3 +60,19 @@ print(nama)
 print(umur)      
 print(tinggi)    
 print(is_active) 
+
+# Konstanta #
+PI = 3.14159
+GRAVITY = 9.8
+MAX_RETRY = 5
+
+print("Nilai PI:", PI)
+print("Gravitasi:", GRAVITY)
+print("Maksimum Percobaan:", MAX_RETRY)
+
+TAX_RATE = 0.1  # 10% pajak
+
+harga_barang = 50000
+total = harga_barang + (harga_barang * TAX_RATE)
+
+print("Total harga:", total)
