@@ -121,3 +121,31 @@ c = [1, 2, 3]
 print(a is b)     
 print(a is c)     
 print(a == c)     
+
+# Control Flow #
+nilai = 85
+
+if nilai >= 90:
+    print("A")
+elif nilai >= 75:
+    print("B")
+else:
+    print("C")
+
+buah = ["apel", "jeruk", "mangga"]
+
+for item in buah:
+    print(item)
+
+count = 0
+
+while count < 5:
+    print("Hitung:", count)
+    count += 1
+
+for i in range(1, 6):
+    if i == 3:
+        continue  
+    if i == 5:
+        break     
+    print(i)
