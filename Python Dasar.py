@@ -76,3 +76,48 @@ harga_barang = 50000
 total = harga_barang + (harga_barang * TAX_RATE)
 
 print("Total harga:", total)
+
+# Operator Aritmatika #
+x = 5
+y = 10
+
+print(x == y)  
+print(x != y)  
+print(x > y)   
+print(x < y)   
+print(x >= y)  
+print(x <= y)  
+
+a = True
+b = False
+
+print(a and b)  
+print(a or b)   
+print(not a)    
+
+x = 10
+
+x += 5
+print(x)  
+
+x -= 3
+print(x)  
+
+x *= 2
+print(x)  
+
+x /= 4
+print(x)  
+
+buah = ["apel", "jeruk", "mangga"]
+
+print("apel" in buah)      
+print("pisang" not in buah) 
+
+a = [1, 2, 3]
+b = a
+c = [1, 2, 3]
+
+print(a is b)     
+print(a is c)     
+print(a == c)     
